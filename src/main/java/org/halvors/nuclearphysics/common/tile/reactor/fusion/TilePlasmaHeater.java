@@ -37,7 +37,7 @@ public class TilePlasmaHeater extends TileMachine implements IFluidHandler, ITag
     private static final String NBT_TANK_TRITIUM = "tankInputTritium";
     private static final String NBT_TANK_OUTPUT = "tankOutput";
     private static final int TICKS_REQUIRED = 20 * 20;
-    private static final int ENERGY_PER_TICK = 25000;
+    private static final int ENERGY_PER_TICK = 5000;
     private static final int PLASMA_HEAT_AMOUNT = 100;
 
     public final LiquidTank tankInputDeuterium = new LiquidTank(Fluid.BUCKET_VOLUME * 10) {
